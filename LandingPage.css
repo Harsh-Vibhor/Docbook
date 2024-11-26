@@ -1,0 +1,152 @@
+/* General Styles */
+.landing-page {
+    font-family: Arial, sans-serif;
+}
+
+/* Intro Block */
+.intro-block {
+    background-color: #0de1d6;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    margin-top: 1300px;
+}
+
+.intro-block h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro-block p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.appointment-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #0077ff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.appointment-button:hover {
+    background-color: #e6f3ff;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2.5em;
+    color: #0077ff;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 2.5em;
+    color: #0077ff;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-card h3 {
+    font-size: 1.3em;
+    color: #0077ff;
+}
+
+.service-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Steps to Book an Appointment Section */
+.appointment-steps {
+    padding: 50px 20px;
+    background-color: #e9ecef;
+    text-align: center;
+}
+
+.appointment-steps h2 {
+    font-size: 2.5em;
+    color: #0077ff;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step-card {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.step-card h3 {
+    font-size: 1.3em;
+    color: #0077ff;
+}
+
+.step-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-links a {
+    color: #0077ff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

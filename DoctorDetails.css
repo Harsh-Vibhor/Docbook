@@ -1,0 +1,89 @@
+/* DoctorDetails.css */
+.doctor-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.doctor-details-container h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.doctor-details-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.doctor-photo-wrapper {
+    width: 400px;  /* Increased width */
+    height: 400px; /* Increased height for a larger rectangular shape */
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;  /* Slight rounded corners for a soft look */
+    margin-right: 20px;
+}
+
+.doctor-photo-large {
+    width: 100%;   /* Make image fill the container */
+    height: 100%;  /* Make image fully fill the container */
+    object-fit: cover; /* Ensures the image covers the space without stretching */
+    border-radius: 8px; /* Slight rounding on the image edges */
+}
+
+.doctor-name {
+    display: none; /* Removed name from within the photo */
+}
+
+.doctor-info {
+    flex: 1;
+    max-width: 600px; /* Optional: Ensures content doesn't stretch too wide */
+}
+
+.doctor-info h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.doctor-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.doctor-info p strong {
+    font-weight: bold;
+}
+
+.book-appointment-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.book-appointment-button:hover {
+    background-color: #0056b3;
+}
+
+.appointment-message {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745; /* Green background */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+}

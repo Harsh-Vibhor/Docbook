@@ -1,0 +1,50 @@
+/* Navbar container */
+.navbar {
+    width: calc(100% - 400px);  /* 100% of the screen minus 200px margin on each side */
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);  /* Center navbar */
+    background-color: #65a6f0;  /* Blue background */
+    z-index: 1000;
+    border-bottom: 2px solid black;  /* Divider line under navbar */
+    padding: 15px 10px;  /* Increased padding for more height */
+    margin: 5px 0;  /* Added margin of 5px on top and bottom */
+    border-radius: 10px;  /* Curved edges */
+}
+
+/* Content inside the navbar */
+.navbar-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* App name styling */
+.app-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;  /* White color for the app name to stand out on blue background */
+}
+
+/* Navbar links */
+.navbar-links {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+/* Style for individual links */
+.navbar-links a {
+    color: #fff; /* Default link color */
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px; /* Add some padding around the links */
+    border-radius: 5px; /* Optional: Make the link background rounded */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.navbar-links a:hover {
+    background-color: #fff; /* Background turns white */
+    color: #333; /* Text turns black */
+}

@@ -1,0 +1,21 @@
+.appointments-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.appointments-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.appointment-card {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-card p {
+    margin: 5px 0;
+}
